@@ -5,7 +5,7 @@ function Encabezado() {
   return (
 
     <header>
-      
+      <div className='container1'>
         <div className='encabezados'>
           <h2> caja 1</h2>
         </div>
@@ -17,7 +17,7 @@ function Encabezado() {
         <div className='encabezados'>
           <h2> caja 3</h2>
         </div>
-      
+      </div>
 
       <div className='caontiner2'>
         <div>
