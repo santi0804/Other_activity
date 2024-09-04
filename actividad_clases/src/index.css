@@ -1,0 +1,91 @@
+body{ 
+  width: 1920px;
+  height: 1080px; 
+}
+
+header {
+  width: 1288px;
+  height: 260px;
+  margin: 0 auto; 
+  background-color: #8a8b88;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Espacia los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+.encabezados {
+  width: 334px;
+  height: 79px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 60px;
+}
+
+.continer2 {
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente en su contenedor */
+  align-items: center; /* Centra la imagen verticalmente en su contenedor */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre el contenedor main y sections */
+  align-items: flex-start; /* Alinea la parte superior del contenedor main con las sections */
+  padding: 20px; /* Espaciado interno opcional */
+}
+
+.main {
+  width: 945px;
+  height:  538px;
+  background-color: #6d6969ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  width: 547px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espacio entre las dos secciones */
+}
+
+.sections {
+  width: 907px;
+  height: 269px;
+  background-color: #6d6969ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-caja {
+  width: 440px;
+  height: 249px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
