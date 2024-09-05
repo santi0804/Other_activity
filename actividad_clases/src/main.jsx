@@ -4,6 +4,7 @@ import Body from './Body'
 import Encabezado from './Encabezado'
 import Main from './Main2'
 import Sections from './Sections'
+import Article from './Article'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -13,9 +14,10 @@ createRoot(document.getElementById('root')).render(
     <br />
     <Main/>
     <Sections/>
+    <Article/>
 
   
 
 
-  </StrictMode>,
+  </StrictMode>
 )
