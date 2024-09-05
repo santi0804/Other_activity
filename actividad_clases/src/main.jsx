@@ -5,6 +5,7 @@ import Encabezado from './Encabezado'
 import Main from './Main2'
 import Sections from './Sections'
 import Article from './Article'
+import Footer from './Footer'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -15,9 +16,8 @@ createRoot(document.getElementById('root')).render(
     <Main/>
     <Sections/>
     <Article/>
-
-  
-
+    <br/>
+    <Footer/>
 
   </StrictMode>
 )

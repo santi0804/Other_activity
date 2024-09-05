@@ -1,7 +1,7 @@
 body{ 
   width: 1920px;
   height: 1080px;
-  background-color: yellow;
+  background-color: rgb(147, 233, 233);
 }
 
 header {
@@ -111,4 +111,32 @@ header {
   align-items: center;
   border-radius: 8px;
   margin-right: 50px;
+}
+
+footer {
+  width: 510px;
+  height: 175px;
+  background-color: #333; /* Color de fondo */
+  color: white; /* Color de texto */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  margin: 0 auto; /* Centra el footer en la página */
+  border-radius: 8px; /* Esquinas redondeadas */
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
 }
